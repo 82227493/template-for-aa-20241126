@@ -1,0 +1,13 @@
+C:\Users\user\template-for-aa-20241126\src\main\java\com\example\demo\controller\FileRestController.java
+C:\Users\user\template-for-aa-20241126\src\main\java\com\example\demo\controller\TodoController.java
+C:\Users\user\template-for-aa-20241126\src\main\java\com\example\demo\controller\TodoRestController.java
+C:\Users\user\template-for-aa-20241126\src\main\java\com\example\demo\controller\UserRestController.java
+C:\Users\user\template-for-aa-20241126\src\main\java\com\example\demo\DemoApplication.java
+C:\Users\user\template-for-aa-20241126\src\main\java\com\example\demo\domain\Status.java
+C:\Users\user\template-for-aa-20241126\src\main\java\com\example\demo\domain\TodoItem.java
+C:\Users\user\template-for-aa-20241126\src\main\java\com\example\demo\domain\TodoReference.java
+C:\Users\user\template-for-aa-20241126\src\main\java\com\example\demo\dto\TodoItemDto.java
+C:\Users\user\template-for-aa-20241126\src\main\java\com\example\demo\repository\TodoItemReferenceRepository.java
+C:\Users\user\template-for-aa-20241126\src\main\java\com\example\demo\repository\TodoItemRepository.java
+C:\Users\user\template-for-aa-20241126\src\main\java\com\example\demo\service\TodoItemService.java
+C:\Users\user\template-for-aa-20241126\src\main\java\com\TodoItemDto.java

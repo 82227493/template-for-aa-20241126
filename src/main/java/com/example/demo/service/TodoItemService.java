@@ -4,6 +4,9 @@ import com.example.demo.domain.Status;
 import com.example.demo.domain.TodoItem;
 import com.example.demo.domain.TodoReference;
 import com.example.demo.dto.TodoItemDto;
+import com.example.demo.domain.Status;
+import java.util.List;
+import java.util.Date;
 import com.example.demo.repository.TodoItemReferenceRepository;
 import com.example.demo.repository.TodoItemRepository;
 import lombok.RequiredArgsConstructor;
@@ -26,6 +29,18 @@ import java.util.stream.IntStream;
 @RequiredArgsConstructor
 public class TodoItemService {
 
+    public void someMethod() {
+        // 예시: 일부 오류를 수정
+        TodoItem todoItem = new TodoItem();
+        todoItem.setStatus(Status.TODO); // Status를 제대로 설정
+
+        TodoReference todoReference = new TodoReference();
+        todoReference.setCurrentTodoItem(todoItem);
+
+        // 나머지 로직
+    }
+
+    // 기타 메서드    
     private final TodoItemRepository todoItemRepository;
     private final TodoItemReferenceRepository todoItemReferenceRepository;
 

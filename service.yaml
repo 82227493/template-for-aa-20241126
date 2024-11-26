@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: 82227493-app-service
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+    targetPort: 8080
+  selector:
+    app: 82227493-app
